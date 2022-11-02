@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Navigation from './Navigation';
 
-export default function Header () {
+export default function Header (props) {
     return (
         <header>
-            <img>Logo</img>
             <h1>Tom Gold</h1>
-            <Navigation/>
+            <Navigation currentPage={props.currentPage} handlePageChange={props.handlePageChange} />
         </header>
     )
 }

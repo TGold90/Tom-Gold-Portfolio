@@ -1,12 +1,44 @@
-import './App.css';
+
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import React, { useState } from 'react';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+
 
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <Contact />;
+  };
+
+ //runs setCurrentPage to set state to whichever page is clicked selected
+ const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div className="">
-      <App />
-    </div>
-  );
+    <>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      
+      {renderPage()}
+      
+      <Footer />
+      </>
+  )
 }
+// const App = () => <ContentContainer />;
+
 
 export default App;
