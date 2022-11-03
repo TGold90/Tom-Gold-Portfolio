@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Resume() {
     return (
-        <div>
+        <section className='text-light-g-text p-10'>
             placeholder
-        </div>
+        </section>
     )
 }

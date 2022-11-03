@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function Portfolio() {
     return (
-        <div>
+        <section className='text-light-g-text p-10'>
             projects go here
-        </div>
+        </section>
     )
 }

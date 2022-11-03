@@ -1,7 +1,7 @@
 
+import React, { useState, useEffect } from 'react';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import React, { useState } from 'react';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
@@ -25,20 +25,25 @@ function App() {
     return <Contact />;
   };
 
+  useEffect(() => {
+    // 👇 add class to body element
+    document.body.classList.add('bg-sci-blue');
+    document.body.classList.add('h-screen');
+  }, []);
+
  //runs setCurrentPage to set state to whichever page is clicked selected
  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+  <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       
       {renderPage()}
       
       <Footer />
-      </>
+    </ >
   )
 }
-// const App = () => <ContentContainer />;
 
 
 export default App;

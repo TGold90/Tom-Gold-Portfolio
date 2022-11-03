@@ -4,8 +4,8 @@ import React from 'react';
 // sets the Nav bar components - onClick--> runs handlepage change which changes state to current selection.
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs list-none px-10 text-plutonium">
+      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -14,7 +14,7 @@ function Navigation({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -23,7 +23,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -32,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
         <a
           href="#contact"
           onClick={() => handlePageChange('Resume')}
