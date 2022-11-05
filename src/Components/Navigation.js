@@ -5,16 +5,16 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs list-none px-10 text-plutonium">
-      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
+      <li className=" nav-item px-10 inline hover:bg-plutonium hover:text-sci-blue sm:px-4">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-item-active' : 'bg-sci-blue'}
         >
           About
         </a>
       </li>
-      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
+      <li className="nav-item px-10 inline hover:bg-plutonium hover:text-sci-blue sm:px-4">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -23,7 +23,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
+      <li className="nav-item px-10 inline hover:bg-plutonium hover:text-sci-blue sm:px-4">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -32,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item px-5 inline hover:bg-plutonium hover:text-sci-blue">
+      <li className="nav-item px-10 inline hover:bg-plutonium hover:text-sci-blue sm:px-4">
         <a
           href="#contact"
           onClick={() => handlePageChange('Resume')}

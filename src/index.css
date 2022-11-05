@@ -6,14 +6,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-padding-top: 200px;
+    scroll-padding-top: 60px;
     scroll-behavior: smooth;
 }
 
 header {
     height: 60px;
     z-index: 2;
-    border-bottom: solid #bfd3d6 5px;
+    /* border-bottom: solid #bfd3d6 5px; */
 }
 
 .glow-text {
@@ -35,9 +35,31 @@ header {
     height: 60px;
 }
 
+.nav-item {
+    padding: 0px 18px 0x;
+    display: inline;
+}
+
 .nav-item:hover {
-    box-shadow: rgb(7, 244, 15) 0px 0px 7px;
+    box-shadow: #07F40F 0px 0px 7px;
+    color: #1c1c35;
     border-radius: 1rem;
+}
+.nav-item:active {
+    box-shadow: rgb(7, 244, 15) 0px 0px 7px;
+    color: #1c1c35;
+    border-radius: 1rem;
+}
+
+.button-link {
+    background-color: #fffdf1;
+    height: 25px;
+    width: 75px;
+    margin: 5px 5px 5px;
+    color: #1c1c35;
+    border-radius: 1rem;
+    box-shadow: rgb(7, 244, 15) 0px 0px 7px;
+
 }
 
 footer {

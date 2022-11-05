@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "RP Lite",
+        "src": "rplite.png",
+        "alt": "image of RP-Lite application",
+        "about": "JS/NODE.JS/EXPRESS/HANDLEBARS/MYSQL/SEQUELIZE",
+        "appHref": "https://rplite.herokuapp.com",
+        "appTitle": "Link to RP Lite homepage",
+        "repoHref": "https://github.com/RP-LITE/rp-lite"
+    },
+    {
+        "id": 2,
+        "name": "QuickByte",
+        "src": "quickbyte.png",
+        "alt": "image of QuickByte application",
+        "about": "JS/WEB API/CSS/HTML",
+        "appHref": "https://acorbridg.github.io/Project1/",
+        "appTitle": "Link to Quickbyte homepage",
+        "repoHref": "https://github.com/acorbridg/Project1"
+    },
+    {
+        "id": 3,
+        "name": "QuickByte",
+        "src": "quickbyte.png",
+        "alt": "image of QuickByte application",
+        "about": "JS/WEB API/CSS/HTML",
+        "appHref": "https://acorbridg.github.io/Project1/",
+        "appTitle": "Link to Quickbyte homepage",
+        "repoHref": "https://github.com/acorbridg/Project1"
+    },
+    {
+        "id": 4,
+        "name": "QuickByte",
+        "src": "quickbyte.png",
+        "alt": "image of QuickByte application",
+        "about": "JS/WEB API/CSS/HTML",
+        "appHref": "https://acorbridg.github.io/Project1/",
+        "appTitle": "Link to Quickbyte homepage",
+        "repoHref": "https://github.com/acorbridg/Project1"
+    },
+    {
+        "id": 5,
+        "name": "QuickByte",
+        "src": "quickbyte.png",
+        "alt": "image of QuickByte application",
+        "about": "JS/WEB API/CSS/HTML",
+        "appHref": "https://acorbridg.github.io/Project1/",
+        "appTitle": "Link to Quickbyte homepage",
+        "repoHref": "https://github.com/acorbridg/Project1"
+    },
+    {
+        "id": 6,
+        "name": "QuickByte",
+        "src": "quickbyte.png",
+        "alt": "image of QuickByte application",
+        "about": "JS/WEB API/CSS/HTML",
+        "appHref": "https://acorbridg.github.io/Project1/",
+        "appTitle": "Link to Quickbyte homepage",
+        "repoHref": "https://github.com/acorbridg/Project1"
+    }
+]

@@ -1,10 +1,10 @@
 import React from 'react';
-// import Project from '../Project';
+import Project from '../Components/Project';
 
 export default function Portfolio() {
     return (
-        <section className='text-light-g-text p-10'>
-            projects go here
+        <section className='grid grid-cols-3'>
+            <Project/>
         </section>
     )
 }
