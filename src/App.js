@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     // 👇 add class to body element
-    document.body.classList.add('bg-sci-blue');
+    document.body.classList.add('bg-vibe-purple');
     document.body.classList.add('h-screen');
   }, []);
 

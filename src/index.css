@@ -21,14 +21,8 @@ header {
     text-shadow: rgb(7, 244, 15) 0px 0px 7px;
 }
 
-/* .content {
-    height: 100vh;
-} */
-
 .nav {
     list-style-type: none;
-    /* padding: 5rem; */
-    /* padding: .5rem; */
 }
 
 .nav-anchor {
@@ -45,21 +39,42 @@ header {
     color: #1c1c35;
     border-radius: 1rem;
 }
+
 .nav-item:active {
     box-shadow: rgb(7, 244, 15) 0px 0px 7px;
     color: #1c1c35;
     border-radius: 1rem;
 }
 
+.page-title {
+    font-size: x-large;
+    color: #fffdf1;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.project-card {
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 90%, 10% 100%, 100% 100%, 100% 10%, 90% 0);
+    background-color:#1c1c35;
+    box-shadow: rgb(7, 244, 15) 0px 0px 7px;
+    filter: brightness(50%);
+}
+
+.project-card:hover {
+    filter: brightness(100%);
+}
+
 .button-link {
     background-color: #fffdf1;
-    height: 25px;
-    width: 75px;
+    height: 2rem;
+    width: 5rem;
     margin: 5px 5px 5px;
     color: #1c1c35;
     border-radius: 1rem;
     box-shadow: rgb(7, 244, 15) 0px 0px 7px;
-
 }
 
 footer {

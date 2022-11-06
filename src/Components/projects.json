@@ -4,7 +4,7 @@
         "name": "RP Lite",
         "src": "rplite.png",
         "alt": "image of RP-Lite application",
-        "about": "JS/NODE.JS/EXPRESS/HANDLEBARS/MYSQL/SEQUELIZE",
+        "about": "RP Lite is a ",
         "appHref": "https://rplite.herokuapp.com",
         "appTitle": "Link to RP Lite homepage",
         "repoHref": "https://github.com/RP-LITE/rp-lite"

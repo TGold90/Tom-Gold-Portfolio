@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Resume() {
     return (
-        <section className='text-light-g-text p-10'>
-            placeholder
+        <section className='text-plutonium'>
+            <h3 className='page-title glow-text'>Contact me!</h3>
         </section>
     )
 }

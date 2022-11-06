@@ -11,7 +11,7 @@ module.exports = {
       'md': {'min': '641px', 'max': '768px'},
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1024px',
+      'lg': {'min': '769px', 'max': '1024px'},
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',
@@ -25,6 +25,7 @@ module.exports = {
       'dark': '#222223',
       'dark-blue': '#161679',
       'sci-blue': '#1c1c35',
+      'vibe-purple': '#3e01f7',
       'purple': '#321450',
       'green': '#07F40F',
       'dark-purple': '#29132e',
