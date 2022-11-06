@@ -32,18 +32,23 @@ header {
 .nav-item {
     padding: 0px 18px 0x;
     display: inline;
+    vertical-align: middle;
+    min-height: 32px;
+    /* margin:1rem; */
 }
 
 .nav-item:hover {
     box-shadow: #07F40F 0px 0px 7px;
     color: #1c1c35;
-    border-radius: 1rem;
+    clip-path: polygon(0 0, 0 60%, 10% 100%, 100% 100%, 100% 40%, 90% 0);
+    min-height: 32px;
 }
 
 .nav-item:active {
     box-shadow: rgb(7, 244, 15) 0px 0px 7px;
     color: #1c1c35;
-    border-radius: 1rem;
+    clip-path: polygon(0 0, 0 60%, 10% 100%, 100% 100%, 100% 40%, 90% 0);
+    min-height: 32px;
 }
 
 .page-title {
@@ -58,22 +63,34 @@ header {
 .project-card {
     overflow: hidden;
     clip-path: polygon(0 0, 0 90%, 10% 100%, 100% 100%, 100% 10%, 90% 0);
-    background-color:#1c1c35;
-    box-shadow: rgb(7, 244, 15) 0px 0px 7px;
-    filter: brightness(50%);
+    background-color:#01012b;
+    filter: brightness(65%);
 }
 
 .project-card:hover {
     filter: brightness(100%);
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
 }
 
 .button-link {
-    background-color: #fffdf1;
+    background-color: #01012b;
     height: 2rem;
     width: 5rem;
     margin: 5px 5px 5px;
-    color: #1c1c35;
-    border-radius: 1rem;
+    color: #f3fff1;
+    text-shadow: rgb(7, 244, 15) 0px 0px 7px;
+    clip-path: polygon(0 0, 0 80%, 10% 100%, 100% 100%, 100% 20%, 90% 0);
+    box-shadow: rgb(7, 244, 15) 0px 0px 7px;
+}
+
+.button-submit {
+    background-color: #01012b;
+    height: 2rem;
+    width: 10rem;
+    margin: 5px 5px 5px;
+    color: #f3fff1;
+    text-shadow: rgb(7, 244, 15) 0px 0px 7px;
+    clip-path: polygon(0 0, 0 60%, 10% 100%, 100% 100%, 100% 40%, 90% 0);
     box-shadow: rgb(7, 244, 15) 0px 0px 7px;
 }
 
@@ -81,7 +98,7 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: #222223;
+    background-color: #01012b;
     border-top: solid #bfd3d6 5px;
     padding: 1.2em;
     width: 100%;

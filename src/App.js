@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import ContactForm from './pages/Contact';
 
 
 

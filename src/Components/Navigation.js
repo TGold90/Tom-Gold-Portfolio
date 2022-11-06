@@ -4,8 +4,8 @@ import React from 'react';
 // sets the Nav bar components - onClick--> runs handlepage change which changes state to current selection.
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs list-none px-10 text-plutonium">
-      <li className=" nav-item px-10 inline hover:bg-plutonium hover:text-sci-blue sm:px-4">
+    <ul className="nav nav-tabs list-none px-10 text-plutonium h-8">
+      <li className=" nav-item px-10 inline h-8 hover:bg-plutonium hover:text-sci-blue sm:px-4">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}

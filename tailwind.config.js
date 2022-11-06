@@ -21,10 +21,10 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     colors: {
-      'plutonium': '#fffdf1',
+      'plutonium': '#f3fff1',
       'dark': '#222223',
       'dark-blue': '#161679',
-      'sci-blue': '#1c1c35',
+      'sci-blue': '#01012b',
       'vibe-purple': '#3e01f7',
       'purple': '#321450',
       'green': '#07F40F',
