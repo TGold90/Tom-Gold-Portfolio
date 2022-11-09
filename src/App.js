@@ -28,8 +28,10 @@ function App() {
 
   useEffect(() => {
     // 👇 add class to body element
-    document.body.classList.add('bg-vibe-purple');
-    document.body.classList.add('h-screen');
+    document.body.classList.add('bg-gradient-to-b');
+    document.body.classList.add('from-blue');
+    document.body.classList.add('to-black');
+    document.body.classList.add('min-h-screen');
   }, []);
 
  //runs setCurrentPage to set state to whichever page is clicked selected

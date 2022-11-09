@@ -4,18 +4,23 @@ import React from 'react';
 
 export default function About() {
     return (
-    <section className='text-plutonium px-10'>
-        <h3 className='page-title glow-text'>Stats and Bio</h3>
-        <p>I am a web developerLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut sagittis sapien. Nam id commodo nulla. Fusce egestas rhoncus enim, vel rutrum sapien pretium nec. Vestibulum tincidunt semper sapien nec laoreet. Quisque ut eleifend est. Pellentesque rutrum, turpis sed rhoncus eleifend, dui nisl fringilla libero, sed tincidunt augue erat et risus. Vestibulum ligula ipsum, hendrerit et risus nec, pellentesque congue purus. Proin aliquam imperdiet rhoncus. Duis sed malesuada nunc, pulvinar imperdiet leo. Nunc egestas elit id lorem ullamcorper, a posuere dolor volutpat.</p>
-        <div className='p-5'>
-            <h4>Technologies</h4>
-            <ul className='p-5 list-none flex flex-wrap flex-row'>
+    <section className='text-plutonium px-10 content'>
+        <h3 className='page-title glow-text'>About Me</h3>
+        <div className='bg-gray bg-opacity-60 about-p px-20'>
+        <p className='py-3'>- My name is Tom Gold.</p>
+        <p className='py-3'>- I am a web developer and graduate of the University of Utah Fullstack Coding Bootcamp.</p>
+        <p className='py-3'>- I come from a product development background in the furniture industry. I understand how to make great products: from concept to production to marketing.</p>
+        </div>
+        <div className='bg-gray bg-opacity-60 about-p px-20 py-5 my-10'>
+            <h4>Technologies/Tools</h4>
+            <ul className='px-5 list-none flex flex-wrap flex-row'>
                 <li className='p-5'>Javascript</li>
-                <li className='p-5'>Javascript</li>
-                <li className='p-5'>Javascript</li>
+                <li className='p-5'>HTML</li>
+                <li className='p-5'>CSS</li>
                 <li className='p-5'>Javascript</li>
             </ul>
         </div>
+        
     </section>
     )
 }

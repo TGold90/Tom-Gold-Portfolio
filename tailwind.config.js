@@ -21,17 +21,18 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     colors: {
-      'plutonium': '#f3fff1',
+      'plutonium': '#b8dd94',
       'dark': '#222223',
       'dark-blue': '#161679',
-      'sci-blue': '#01012b',
-      'vibe-purple': '#3e01f7',
+      'sci-blue': '#605856',
+      'blue': '#2a2ad8',
+      'vibe-purple': '#4c22cb',
       'purple': '#321450',
       'green': '#07F40F',
       'dark-purple': '#29132e',
-      'gray-light': '#bfd3d6',
+      'gray': '#3b3b4f',
       'white': '#FFF',
-      'black': '#000000'
+      'black': '#020219'
     },
     extend: {
       
