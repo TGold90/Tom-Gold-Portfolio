@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
     return (
-        <section className='text-plutonium content'>
+        <section className='text-white content'>
             <p>
 <strong>Tom Gold</strong>
 </p>

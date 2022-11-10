@@ -4,6 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
 ],
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+    },
     screens: {
       'sm': {'min': '300px', 'max': '640px'},
       // => @media (min-width: 640px) { ... }
@@ -22,6 +29,7 @@ module.exports = {
     },
     colors: {
       'plutonium': '#b8dd94',
+      'gold': '#ffd700',
       'dark': '#222223',
       'dark-blue': '#161679',
       'sci-blue': '#605856',
@@ -31,7 +39,7 @@ module.exports = {
       'green': '#07F40F',
       'dark-purple': '#29132e',
       'gray': '#3b3b4f',
-      'white': '#FFF',
+      'white': '#F1F1F1',
       'black': '#080F0F'
     },
     extend: {

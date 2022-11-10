@@ -9,7 +9,7 @@ export default function Contact() {
     }, 100);
   };
     return (
-        <section className='text-plutonium content m-20 flex flex-wrap justify-center flex-col'>
+        <section className='text-white content m-20 flex flex-wrap justify-center flex-col'>
             <h3 className='page-title glow-text'>Contact me!</h3>
             <form
             className='text-center'
