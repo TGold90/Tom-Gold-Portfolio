@@ -32,7 +32,7 @@ module.exports = {
       'dark-purple': '#29132e',
       'gray': '#3b3b4f',
       'white': '#FFF',
-      'black': '#020219'
+      'black': '#080F0F'
     },
     extend: {
       

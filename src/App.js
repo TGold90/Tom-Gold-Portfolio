@@ -28,9 +28,7 @@ function App() {
 
   useEffect(() => {
     // 👇 add class to body element
-    document.body.classList.add('bg-gradient-to-b');
-    document.body.classList.add('from-blue');
-    document.body.classList.add('to-black');
+    document.body.classList.add('bg-black');
     document.body.classList.add('min-h-screen');
   }, []);
 
