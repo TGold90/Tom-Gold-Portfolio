@@ -2,21 +2,23 @@ import React from "react";
 import { useState } from "react";
 
 export default function Contact() {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true);
-    }, 100);
-  };
+  // //included functionality to actually post a message, but it doesnt work since there is no database :)
+
+  // const [submitted, setSubmitted] = useState(false);
+  // const handleSubmit = () => {
+  //   setTimeout(() => {
+  //     setSubmitted(true);
+  //   }, 100);
+  // };
   return (
     <section className='text-white content m-20 flex flex-wrap justify-center flex-col'>
       <h3 className='page-title'>Contact me!</h3>
       <form
         className='text-center'
         action=''
-        onSubmit={handleSubmit}
-        method='POST'
-        target='_blank'
+        // onSubmit={handleSubmit}
+        // method='POST'
+        // target='_blank'
       >
         <div className='mb-3 pt-0'>
           <input
