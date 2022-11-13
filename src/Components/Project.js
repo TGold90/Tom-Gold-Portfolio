@@ -14,18 +14,18 @@ export default function Project() {
           <div class='project-info flex flex-col flex-wrap break-normal text-center'>
             <h3 key={project.id}>{project.name}</h3>
             <p className='text-sm flex-wrap'>{project.about}</p>
-            <div className='buttonDiv flex flex-wrap break-normal justify-center pt-5'>
+            <div className='buttonDiv flex flex-row flex-wrap break-normal justify-center'>
               <a
-                class=''
+                className=''
                 href={project.appHref}
                 target='_blank'
                 rel='noreferrer'
                 title={project.linkTitle}
               >
-                <button className='button-link'>App Link</button>
+                <button className='button-link h-2 w-3'>App Link</button>
               </a>
               <a
-                class=''
+                className=''
                 href={project.repoHref}
                 target='_blank'
                 rel='noreferrer'

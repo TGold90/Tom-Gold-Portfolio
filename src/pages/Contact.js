@@ -25,7 +25,7 @@ export default function Contact() {
             type='text'
             placeholder='Your name'
             name='name'
-            className='w-1/2 px-3 py-3 relative text-sci-blue rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
+            className='w-96 px-3 py-3 relative text-sci-blue rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
             required
           />
         </div>
@@ -34,7 +34,7 @@ export default function Contact() {
             type='email'
             placeholder='Email'
             name='email'
-            className='w-1/2 px-3 py-3 relative text-sci-blue bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
+            className='w-96 px-3 py-3 relative text-sci-blue bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full'
             required
           />
         </div>
