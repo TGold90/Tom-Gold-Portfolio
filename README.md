@@ -10,7 +10,8 @@ Check out my recent works, a little bit about me, a contact form and a downloada
 - [Questions](#questions)
 
 ## Screenshot
-![localhost_3000_](https://user-images.githubusercontent.com/104692375/201539184-cbeaa353-4d98-4e32-82eb-b67860535288.png)
+![localhost_3000_ (1)](https://user-images.githubusercontent.com/104692375/201540811-b8d68046-eca9-4271-b068-8e7487b45e05.png)
+
 
 ---
 
