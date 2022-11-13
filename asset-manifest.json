@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tomgoldportfolio/static/css/main.c0649252.css",
+    "main.js": "/tomgoldportfolio/static/js/main.c22208b5.js",
+    "index.html": "/tomgoldportfolio/index.html",
+    "main.c0649252.css.map": "/tomgoldportfolio/static/css/main.c0649252.css.map",
+    "main.c22208b5.js.map": "/tomgoldportfolio/static/js/main.c22208b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0649252.css",
+    "static/js/main.c22208b5.js"
+  ]
+}
