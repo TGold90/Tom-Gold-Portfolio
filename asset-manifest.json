@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tomgoldportfolio/static/css/main.c0649252.css",
-    "main.js": "/tomgoldportfolio/static/js/main.c22208b5.js",
-    "index.html": "/tomgoldportfolio/index.html",
-    "main.c0649252.css.map": "/tomgoldportfolio/static/css/main.c0649252.css.map",
-    "main.c22208b5.js.map": "/tomgoldportfolio/static/js/main.c22208b5.js.map"
+    "main.css": "/Tom-Gold-Portfolio/static/css/main.c0649252.css",
+    "main.js": "/Tom-Gold-Portfolio/static/js/main.c22208b5.js",
+    "index.html": "/Tom-Gold-Portfolio/index.html",
+    "main.c0649252.css.map": "/Tom-Gold-Portfolio/static/css/main.c0649252.css.map",
+    "main.c22208b5.js.map": "/Tom-Gold-Portfolio/static/js/main.c22208b5.js.map"
   },
   "entrypoints": [
     "static/css/main.c0649252.css",
