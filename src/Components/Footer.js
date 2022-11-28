@@ -10,7 +10,10 @@ export default function Footer() {
           <a href='https://github.com/TGold90' target='_blank'>
             <img className='h-5 px-3' src='GitHub-32px.png' />
           </a>
-          <a href='https://www.linkedin.com/feed/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/tom-gold-72256a177/'
+            target='_blank'
+          >
             <img className='h-5' src='LI-in-Bug.png' />
           </a>
         </div>

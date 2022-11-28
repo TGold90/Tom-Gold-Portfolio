@@ -16,12 +16,12 @@ export default function Resume() {
     });
   };
   return (
-    <>
-      <center className='project-card gold-glow'>
+    <section className='content items-center justify-center'>
+      <center className='project-card gold-glow mt-10'>
         <h1>RESUME</h1>
         <h3>Click on below button to download PDF file</h3>
         <button onClick={onButtonClick}>Download PDF</button>
       </center>
-    </>
+    </section>
   );
 }
