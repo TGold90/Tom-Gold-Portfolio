@@ -18,7 +18,7 @@ export default function Resume() {
   return (
     <>
       <center className='project-card gold-glow'>
-        <h1>Welcome to Geeks for Geeks</h1>
+        <h1>RESUME</h1>
         <h3>Click on below button to download PDF file</h3>
         <button onClick={onButtonClick}>Download PDF</button>
       </center>
