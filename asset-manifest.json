@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tom-Gold-Portfolio/static/css/main.ec611461.css",
-    "main.js": "/Tom-Gold-Portfolio/static/js/main.d3464c62.js",
+    "main.css": "/Tom-Gold-Portfolio/static/css/main.555309a2.css",
+    "main.js": "/Tom-Gold-Portfolio/static/js/main.2507dd1a.js",
     "index.html": "/Tom-Gold-Portfolio/index.html",
-    "main.ec611461.css.map": "/Tom-Gold-Portfolio/static/css/main.ec611461.css.map",
-    "main.d3464c62.js.map": "/Tom-Gold-Portfolio/static/js/main.d3464c62.js.map"
+    "main.555309a2.css.map": "/Tom-Gold-Portfolio/static/css/main.555309a2.css.map",
+    "main.2507dd1a.js.map": "/Tom-Gold-Portfolio/static/js/main.2507dd1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec611461.css",
-    "static/js/main.d3464c62.js"
+    "static/css/main.555309a2.css",
+    "static/js/main.2507dd1a.js"
   ]
 }
