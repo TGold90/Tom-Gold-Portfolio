@@ -14,7 +14,7 @@ export default function Footer() {
             href='https://www.linkedin.com/in/tom-gold-72256a177/'
             target='_blank'
           >
-            <img className='h-5' src='LI-in-Bug.png' />
+            <img className='h-5' src='linkedin.png' />
           </a>
         </div>
       </footer>

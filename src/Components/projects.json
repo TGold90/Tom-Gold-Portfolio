@@ -1,62 +1,68 @@
 [
   {
     "id": 1,
+    "name": "Jot It Down",
+    "src": "JotItDown.png",
+    "alt": "image of JotItDown",
+    "description": "A scheduling application for clients and providers. Secure login and authentication with JWT. Providers can create services and clients schedule appointments with providers based on available services.",
+    "about": "MERN Stack / Vite / JWT",
+    "appHref": "https://jotdown.herokuapp.com/",
+    "appTitle": "Link to Jot It Down homepage",
+    "repoHref": "https://github.com/RP-LITE/awesome-schedule"
+  },
+  {
+    "id": 2,
     "name": "RP Lite",
     "src": "rplite.png",
     "alt": "image of RP-Lite application",
-    "about": "JS/Node/SQL/Handlebars/Halmoon",
+    "description": "Login to challenge friends to a fun rock-paper-scissors type game. Live updates with Socket.IO. Level up your creatures when you win!",
+    "about": "JS/Node/SQL/Handlebars/Halfmoon",
     "appHref": "https://rplite.herokuapp.com",
     "appTitle": "Link to RP Lite homepage",
     "repoHref": "https://github.com/RP-LITE/rp-lite"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "QuickByte",
     "src": "quickbyte.png",
     "alt": "image of QuickByte application",
+    "description": "Select a type of restaurant to generate random restaraunts nearby based on your long-lat!",
     "about": "JS/WEB API/CSS/HTML",
     "appHref": "https://acorbridg.github.io/Project1/",
     "appTitle": "Link to Quickbyte homepage",
     "repoHref": "https://github.com/acorbridg/Project1"
   },
   {
-    "id": 3,
-    "name": "Super Quiz Time",
-    "src": "superquiztime.png",
-    "alt": "image of Super Quiz Time application",
-    "about": "JS/HTML/CSS",
-    "appHref": "https://acorbridg.github.io/Project1/",
-    "appTitle": "Link to Super Quiz Time homepage",
-    "repoHref": "https://github.com/acorbridg/Project1"
-  },
-  {
     "id": 4,
     "name": "Schedule It",
-    "src": "scheduleit.png",
+    "src": "scheduleit-workday.jpeg",
     "alt": "image of Schedule It application",
+    "description": "A simple scheduling application that will tell you if your appointments are coming up, have passed or are currently going on.",
     "about": "JS/Bootstrap/HTML",
-    "appHref": "https://acorbridg.github.io/Project1/",
+    "appHref": "https://tgold90.github.io/Schedule-It-CalenderApp/",
     "appTitle": "Link to Quickbyte homepage",
-    "repoHref": "https://github.com/acorbridg/Project1"
+    "repoHref": "https://github.com/TGold90/Schedule-It-CalenderApp"
   },
   {
     "id": 5,
     "name": "Apex Weather Dashboard",
     "src": "apexweather.png",
     "alt": "image of Apex Weather application",
+    "description": "A simple weather application that shows current weather and 5 day weather forecast for any location!",
     "about": "JS/WEB API/CSS/Bootstrap/HTML",
-    "appHref": "https://acorbridg.github.io/Project1/",
+    "appHref": "https://tgold90.github.io/Apex-Weather-Dashboard/",
     "appTitle": "Link to Quickbyte homepage",
-    "repoHref": "https://github.com/acorbridg/Project1"
+    "repoHref": "https://github.com/TGold90/Apex-Weather-Dashboard"
   },
   {
     "id": 6,
-    "name": "QuickByte",
-    "src": "quickbyte.png",
-    "alt": "image of QuickByte application",
-    "about": "JS/WEB API/CSS/HTML",
-    "appHref": "https://acorbridg.github.io/Project1/",
-    "appTitle": "Link to Quickbyte homepage",
-    "repoHref": "https://github.com/acorbridg/Project1"
+    "name": "Super Quiz Time",
+    "src": "superquiztime.png",
+    "alt": "image of Super Quiz Time application",
+    "description": "A very simple quiz game about some very basic web dev trivia.",
+    "about": "JS/HTML/CSS",
+    "appHref": "https://tgold90.github.io/SUPER-QUIZ-TIME/",
+    "appTitle": "Link to Super Quiz Time homepage",
+    "repoHref": "https://github.com/TGold90/SUPER-QUIZ-TIME"
   }
 ]

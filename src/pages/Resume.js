@@ -10,7 +10,7 @@ export default function Resume() {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "tg-resume.pdf";
+        alink.download = "tg-resume-2022.pdf";
         alink.click();
       });
     });

@@ -21,9 +21,8 @@ export default function About() {
             Tailwind
           </li>
           <li className='m-2'>
-            3 Years Experience Professional Product Development
+            3 Years Professional Product Development Experience
           </li>
-          <li className='m-2'>Solution Oriented</li>
         </ul>
       </div>
     </section>
