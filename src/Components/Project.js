@@ -21,9 +21,16 @@ export default function Project() {
           {isShown === project.id && (
             <div className='project-info flex flex-col flex-wrap break-normal text-center min-h-full bg-purple bg-opacity-10 items-center'>
               <div className='my-6'>
-                <h3 key={project.id}>{project.name}</h3>
-                <p className='text-sm flex-wrap'>{project.about}</p>
-                <p className='text-xs flex-wrap p-5'>{project.description}</p>
+                <h3 className='text-lg' key={project.id}>
+                  {project.name}
+                </h3>
+                <p className='text-sm flex-wrap gold-glow'>{project.about}</p>
+                <ul className='text-xs p-3 list-disc text-left mx-10'>
+                  <li>{project.description1}</li>
+                  <li>{project.description2}</li>
+                  <li>{project.description3}</li>
+                </ul>
+                {/* <p className='text-xs flex-wrap p-5'>{project.description}</p> */}
 
                 <div className='buttonDiv flex flex-row flex-wrap break-normal justify-center'>
                   <a
