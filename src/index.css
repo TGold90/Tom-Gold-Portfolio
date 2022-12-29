@@ -40,6 +40,7 @@ header {
 .nav {
   list-style-type: none;
   padding-right: 50px;
+  vertical-align: middle;
 }
 
 .nav-item {
@@ -68,16 +69,18 @@ header {
 
 .project-card {
   overflow: hidden;
-  clip-path: polygon(0 0, 0 90%, 10% 100%, 100% 100%, 100% 10%, 90% 0);
-  filter: brightness(75%);
+  border-radius: 5px;
+  filter: brightness(90%);
   border: #01012b;
   border-width: 10px;
+  max-height: 240px;
 }
 
 .project-img {
   height: 167px;
-  overflow: hidden;
-  border-bottom: solid #bfd3d6 2px;
+  /* overflow: hidden; */
+  /* border-bottom: solid #bfd3d6 2px;
+  border-top: solid #bfd3d6 2px; */
 }
 
 .project-card:hover {
@@ -101,6 +104,7 @@ header {
   text-shadow: #f3fff1 0px 0px 7px;
   clip-path: polygon(0 0, 0 80%, 10% 100%, 100% 100%, 100% 20%, 90% 0);
   box-shadow: rgb(7, 244, 15) 0px 0px 7px;
+  font-size: x-small;
 }
 
 .button-submit {
@@ -131,4 +135,17 @@ footer {
   bottom: 0;
   min-height: 40px;
   z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #321450;
 }

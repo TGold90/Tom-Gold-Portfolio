@@ -17,10 +17,22 @@ export default function Resume() {
   };
   return (
     <section className='content items-center justify-center'>
-      <center className='project-card gold-glow mt-10'>
-        <h1>RESUME</h1>
-        <h3>Click on below button to download PDF file</h3>
-        <button onClick={onButtonClick}>Download PDF</button>
+      <center className='project-card mt-10'>
+        <h1 className='text-white page-title'>RESUME</h1>
+        <div className='m-5'>
+          <button className='gold-glow' onClick={onButtonClick}>
+            Download PDF
+          </button>
+        </div>
+        <div>
+          <a
+            href='https://docs.google.com/document/d/1ii9swZs3QM0C_ZNiHQAQ_EWRqBr3V0hJeN3cDmSl3Oc/edit'
+            target='_blank'
+            className='gold-glow'
+          >
+            View Online
+          </a>
+        </div>
       </center>
     </section>
   );

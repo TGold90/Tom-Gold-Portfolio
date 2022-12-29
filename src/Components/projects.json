@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Jot It Down",
-    "src": "JotItDown.png",
+    "src": "jotitdown.png",
     "alt": "image of JotItDown",
-    "description": "A scheduling application for clients and providers. Secure login and authentication with JWT. Providers can create services and clients schedule appointments with providers based on available services.",
+    "description": "A scheduling application for clients and providers. Secure login and authentication with JWT. Create and schedule services!.",
     "about": "MERN Stack / Vite / JWT",
     "appHref": "https://jotdown.herokuapp.com/",
     "appTitle": "Link to Jot It Down homepage",
