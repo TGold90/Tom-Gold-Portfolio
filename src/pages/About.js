@@ -15,7 +15,7 @@ export default function About() {
       <div className='rounded-lg m-5'>
         <img className='about-p' src={LandScapeMe}></img>
       </div>
-      <div className='bg-purple bg-opacity-40 about-p p-10 align-middle m-5 flex justify-center items-center'>
+      <div className='bg-purple bg-opacity-40 about-p p-5 align-middle m-5 flex justify-center items-center'>
         <ul className='py-3 text-2xl xl:text-xl lg:text-xl md:text-lg sm:text-lg xl:ml-10 lg:ml-10 md:ml-8 sm:ml-4 list-roman justify-center align-middle ml-12'>
           {/* <li className='m-2'>Coding bootcamp graduate</li> */}
           <li className='m-5'>Fullstack Stack Developer</li>
@@ -29,7 +29,7 @@ export default function About() {
           </li>
         </ul>
       </div>
-      <div className=' flex flex-row col-span-2 xl:col-span-2 lg:col-span-1 md:col-span-1 sm:col-span-1 text-6xl p-10 justify-center'>
+      <div className=' flex flex-row col-span-2 xl:col-span-2 lg:col-span-1 md:col-span-1 sm:col-span-1 text-6xl justify-center p-3'>
         <a href='https://github.com/TGold90' target='_blank'>
           <img className='h-10 px-4' src={Github} />
         </a>

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Jot It Down",
-    "src": "jotitdown.png",
+    "src": "JotItDown.png",
     "alt": "image of JotItDown",
     "description1": "A scheduling application for clients and providers.",
     "description2": "Secure login and authentication with JWT.",
